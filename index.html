@@ -3,12 +3,59 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap CDN -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<!-- Google Fonts Link -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lemonada:wght@500&family=Sriracha&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Just Kidding</title>
 	</head>
-	<body style="text-align: center;">
+	<body>
 		<h1>Joking Re</h1>
 		<form action="/" method="POST">
-			<button type="submit">Joke</button>
+			<div class="row container-fluid">
+				<div class="col-md-4 form-group">
+					<label for="category">Category</label>
+					<select class="form-control" name="category">
+						<option value="any">Any</option>
+						<option value="miscellaneous">Miscellaneous</option>
+						<option value="programming">Programming</option>
+						<option value="dark">Dark</option>
+						<option value="pun">Pun</option>
+					</select>
+				</div>
+				<div class="col-md-4 form-group">
+					<label for="type">Type</label>
+					<select class="form-control" name="type">
+						<option value="single">Single</option>
+						<option value="twopart">Two Part</option>
+					</select>
+				</div>
+				<div class="col-md-4 form-group">
+					<label for="blacklistFlags">Blacklist Jokes</label>
+					<select class="form-control" name="blacklistFlags">
+						<option value="nsfw">Not safe for work</option>
+						<option value="religious">Religious</option>
+						<option value="political">Political</option>
+						<option value="racist">Racist</option>
+						<option value="sexist">Sexist</option>
+					</select>
+				</div>
+			</div>
+
+			<button class="btn btn-lg btn-warning buton" type="submit">
+				Joke
+			</button>
 		</form>
 	</body>
+	<footer>🎉 Created by GOD 🎉</footer>
 </html>

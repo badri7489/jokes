@@ -1,0 +1,20 @@
+body {
+	text-align: center;
+	background-color: #3c2946;
+	color: #ffd571;
+	font-family: "Lemonada", cursive;
+}
+h1 {
+	margin: 5%;
+	font-size: 6rem;
+	font-family: "Sriracha", cursive;
+}
+.buton {
+	margin: 3%;
+	padding: 1% 4%;
+}
+footer {
+	font-family: "Indie Flower", cursive;
+	margin-top: 5%;
+	color: #dbedf3;
+}
