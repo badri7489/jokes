@@ -1,0 +1,23 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "This a web application to generate random jokes and parameters can also be set to get particular jokes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badri7489/jokes.git"
+  },
+  "author": "GOD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badri7489/jokes/issues"
+  },
+  "homepage": "https://github.com/badri7489/jokes#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
